@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0890" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-05-10T16:27:05" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="order_processor" timestamp="2021-05-10T16:27:05" tests="1" file="/Users/tkssharma/tkssharma/hackerrank-full-stack/Full Stack Certifications/node-js-basics-certification/node js basic -02/test/index.spec.js" time="0.0890" failures="0">
+    <testcase name="order_processor Should emit the PROCESSING_FAILED if any of the line items do not meet the stock requirements" time="0.0890" classname="Should emit the PROCESSING_FAILED if any of the line items do not meet the stock requirements">
+    </testcase>
+  </testsuite>
+</testsuites>

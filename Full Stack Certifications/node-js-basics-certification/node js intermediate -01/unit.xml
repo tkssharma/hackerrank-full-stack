@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.6940" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-05-10T18:02:50" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="products_api_medium" timestamp="2021-05-10T18:02:50" tests="11" file="/Users/tkssharma/tkssharma/hackerrank-full-stack/Full Stack Certifications/node-js-basics-certification/node js intermediate -01/test/index.spec.js" time="2.6940" failures="0">
+    <testcase name="products_api_medium should create a new product" time="0.4430" classname="should create a new product">
+    </testcase>
+    <testcase name="products_api_medium should create a new products without the published field" time="0.0380" classname="should create a new products without the published field">
+    </testcase>
+    <testcase name="products_api_medium should fetch all the products" time="0.1840" classname="should fetch all the products">
+    </testcase>
+    <testcase name="products_api_medium should fetch no products if there are not products stored" time="0.0090" classname="should fetch no products if there are not products stored">
+    </testcase>
+    <testcase name="products_api_medium should publish the product if all the constraints are met" time="0.2950" classname="should publish the product if all the constraints are met">
+    </testcase>
+    <testcase name="products_api_medium should publish the product and the data should be updated in the DB" time="0.8490" classname="should publish the product and the data should be updated in the DB">
+    </testcase>
+    <testcase name="products_api_medium should get 422 when MRP is less the price of the product" time="0.3750" classname="should get 422 when MRP is less the price of the product">
+    </testcase>
+    <testcase name="products_api_medium should get 422 when stock of the product is 0" time="0.1870" classname="should get 422 when stock of the product is 0">
+    </testcase>
+    <testcase name="products_api_medium should get 422 when both  MRP is less the price of the product and stock of the product is 0" time="0.2680" classname="should get 422 when both  MRP is less the price of the product and stock of the product is 0">
+    </testcase>
+    <testcase name="products_api_medium should get 405 for a put request to /products/:id" time="0.0170" classname="should get 405 for a put request to /products/:id">
+    </testcase>
+    <testcase name="products_api_medium should get 405 for a delete request to /products/:id" time="0.0290" classname="should get 405 for a delete request to /products/:id">
+    </testcase>
+  </testsuite>
+</testsuites>

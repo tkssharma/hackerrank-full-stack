@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.5930" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-05-10T15:03:18" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_routes" timestamp="2021-05-10T15:03:18" tests="4" file="/Users/tkssharma/tkssharma/hackerrank-full-stack/Full Stack Certifications/node-js-basics-certification/node js-basic-01/test/index.spec.js" time="0.5930" failures="0">
+    <testcase name="express_recipes_routes Should return 400 for /recipes/step/:id if id is not valid" time="0.3910" classname="Should return 400 for /recipes/step/:id if id is not valid">
+    </testcase>
+    <testcase name="express_recipes_routes Should respond with 0 if elapsed time is 0" time="0.0220" classname="Should respond with 0 if elapsed time is 0">
+    </testcase>
+    <testcase name="express_recipes_routes Should respond back with the correct step - 1" time="0.1160" classname="Should respond back with the correct step - 1">
+    </testcase>
+    <testcase name="express_recipes_routes Should respond back with the correct step - 2" time="0.0640" classname="Should respond back with the correct step - 2">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<testsuites name="jest tests" tests="4" failures="0" time="7.396">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-05-10T18:33:56" time="7.396" tests="4">
+    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.116">
+    </testcase>
+    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.054">
+    </testcase>
+    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.062">
+    </testcase>
+    <testcase classname=" Sequence of navigation clicks renders expected artices" name=" Sequence of navigation clicks renders expected artices" time="0.089">
+    </testcase>
+  </testsuite>
+</testsuites>
