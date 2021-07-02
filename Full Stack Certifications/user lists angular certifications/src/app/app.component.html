@@ -1,0 +1,17 @@
+<h8k-navbar header="User Lists"></h8k-navbar>
+  <div class="layout-row align-items-center justify-content-center mb-50">
+    <data-form
+      (onItemAdded)="onItemAdded($event)"
+    >
+    </data-form>
+  </div>
+  <div class="layout-row justify-content-center">
+    <div class="layout-column item-list justify-content-center">
+        <h3>Book List</h3>
+        <data-list [dataList]="" [dataType]="Book" (onItemDelete)="onItemDelete($event)"></data-list>
+    </div>
+    <div class="layout-column item-list justify-content-center">
+        <h3>Song List</h3>
+        <data-list [dataList]="" [dataType]="Song" (onItemDelete)="onItemDelete($event)"></data-list>
+    </div>
+  </div>
